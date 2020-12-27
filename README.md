@@ -12,6 +12,6 @@ To do list
 
 ### working hours
 * 27.12 (total: h ')
-  - 15:30-
+  - 15:30-17:59
 
 *
