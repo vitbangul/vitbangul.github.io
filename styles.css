@@ -1,0 +1,288 @@
+@font-face {
+  font-family: Arial, sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+html{
+}
+body{
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.95em;
+  line-height: 1.8;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+a{
+  color: #000000;
+  text-decoration: none;
+}
+a:hover{
+  color: #ff9999;
+}
+header{
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 0.95em;
+  width: 20%;
+}
+.home h1{
+  font-size: 0.95em;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+
+main{
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px auto;
+}
+nav{
+  margin-left: 20px;
+  width: 20%;
+  font-size: 0.95em;
+  line-height: 1.8;
+}
+.navList ul{
+  list-style: none;
+}
+section{
+  width: 80%;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.95em;
+  line-height: 1.8;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.twoColumns{
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 80%;
+}
+.leftColumn{
+  width: 50%;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.leftColumn > p {
+}
+.rightColumn{
+  width: 50%;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.rightColumn > p {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.textBlock{
+  width: 80%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+#upperTextBloack{
+  margin-top: -100px;
+}
+.text{
+  text-align: justify;
+}
+.text > hr {
+  border: 0.5px solid;
+}
+.prints{
+  width: 90%;
+  margin: 0 auto;
+}
+.printsRow{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+  margin-top: -50px;
+}
+.printsColumn{
+  -ms-flex: 25%;
+  flex: 25%;
+  max-height: 25%;
+  padding: 10px;
+}
+.hoverImg{
+  display: block;
+  position: relative;
+}
+.hoverImg:hover{
+  cursor: pointer;
+}
+.hoverImg > img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.workSection{
+  width: 90%;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.workTitleSection{
+  width: 40%;
+  margin-left: 20px;
+  text-align: left;
+}
+.workImgSection{
+  width: 60%;
+  justify-content: flex-end;
+}
+.workCaption{
+  /* width: 80%; */
+  /* margin-right: 0; */
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  /* justify-content: flex-end; */
+  justify-content: space-around;
+}
+.workImg > img{
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.contact{
+  margin: 20px;
+}
+.contact > p{
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+address{
+  margin-left: 20px;
+  font-style: normal;
+  font-size: 1em;
+}
+address a{
+  color: #000000;
+}
+#copyright{
+  color:   #b3b3b3;
+}
+
+.imgContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imgContainer .ver{
+  width: 65%;
+}
+.imgContainer .hor{
+  width: 100%;
+}
+.imgContainer img{
+  width: 100%;
+}
+.videoContainer{
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin: 10px auto;
+  margin-bottom: 30px;
+}
+.videoContainer iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media screen and (max-width: 840px){
+  body{
+    /* background-size: 100%;
+    font-size: 0.9em;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+  }
+  header{
+    /* font-size: 0.9em;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 20px auto 20px auto; */
+  }
+  header > div{
+  }
+  .home{
+  }
+  main{
+    /* width: 95%; */
+  }
+  section{
+    /* width: 95%;
+    font-size: 0.9em;
+    line-height: 1.3; */
+  }
+  .imgContainer{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: -10px;
+    text-align: center;
+  }
+  .imgContainer .ver{
+    width: 60%;
+  }
+  .imgContainer .hor{
+    width: 95%;
+  }
+  .videoContainer{
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  header{
+    /* font-size: 0.8em;
+    line-height: 1.1;
+    margin: 20px auto 10px auto;
+    margin-left: 5px;
+    padding: 5px; */
+  }
+  .imgContainer{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -20px;
+    text-align: center;
+  }
+  .imgContainer .ver{
+    width: 55%;
+  }
+  .imgContainer img{
+    width: 90%;
+  }
+  .videoContainer{
+    width: 90%;
+    margin-left: -1.8px;
+  }
+}
