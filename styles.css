@@ -23,6 +23,10 @@ a{
 a:hover{
   color: #ff9999;
 }
+a:visited{
+  text-decoration: none;
+  color: #000000;
+}
 ::-moz-selection{
   background-color: #ff9999;
   color: #000000;
@@ -138,7 +142,9 @@ section{
   width: 100%;
   margin-bottom: 10px;
 }
-
+/* #print01:onclick{
+  position: absolute;
+} */
 
 .workSection{
   width: 90%;
@@ -242,8 +248,9 @@ section{
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  margin-top: -50px;
+  padding-top: 20px;
+  /* padding: 16px; */
+  margin-top: -60px;
   color: #000000;
   font-weight: normal;
   font-size: 20px;
@@ -254,9 +261,13 @@ section{
 }
 .prev{
   left: 0;
+  margin-left: -30px;
+  padding-left: 0;
 }
 .next{
   right: 0;
+  margin-right: -30px;
+  padding-right: 0;
 }
 .prev:hover,
 .next:hover {

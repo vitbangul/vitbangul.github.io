@@ -3,7 +3,7 @@
 To do list
 -----------
 
-* build basic layout
+* make enlarge-able image layout
 * photos upload
 * mobile responsive design
 * domain linking
@@ -17,3 +17,4 @@ To do list
 * 29.12 (total: )
   - 11:19 - 12:22
   - 13:27 - 14:52
+  - 16:12 - 17:05
