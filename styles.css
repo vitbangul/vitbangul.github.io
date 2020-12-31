@@ -21,19 +21,20 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: #ff9999;
+  /* color: #ff9999; */
+  color: #0000CD;
 }
 a:visited{
   text-decoration: none;
   color: #000000;
 }
 ::-moz-selection{
-  background-color: #ff9999;
-  color: #000000;
+  background-color: #0000CD;
+  color: #ffffff;
 }
 ::selection{
-  background-color: #ff9999;
-  color: #000000;
+  background-color: #0000CD;
+  color: #ffffff;
 }
 header{
   margin-left: 20px;
@@ -64,6 +65,12 @@ nav{
 }
 .navList ul{
   list-style: none;
+}
+.navList ul > li > a:hover{
+  color: #0000CD;
+}
+.visitedTab > a{
+  color: #0000CD;
 }
 section{
   width: 80%;
@@ -168,7 +175,9 @@ section{
   display: flex;
   flex-direction: row;
   text-align: right;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: flex-end;
+  padding-right: 20px;
   right: 0;
 }
 .workCaption > p{
@@ -222,7 +231,7 @@ section{
 }
 .close:hover,
 .close:focus {
-  color: #ff9999;
+  color: #0000CD;
   text-decoration: none;
   cursor: pointer;
 }
@@ -271,7 +280,7 @@ section{
 }
 .prev:hover,
 .next:hover {
-  color: #ff9999;
+  color: #0000CD;
 }
 
 /* Position the "next button" to the right */

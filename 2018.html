@@ -18,21 +18,170 @@
       <div class="navList">
         <ul>
           <li><a href="prints.html">prints</a></li>
-          <li><a href="works.html">works</a></li>
+          <li>works</li>
           <li><a href="2020.html">2020</a></li>
           <li><a href="2019.html">2019</a></li>
-          <li><a href="2018.html">2018</a></li>
-          <li><a href="text.html">text</a></li>
+          <li class="visitedTab"><a href="2018.html">2018</a></li>
+          <li>text</li>
           <li><a href="theFiguresOfQuestion.html">the figures of question</a></li>
           <li><a href="bio.html">bio</a></li>
           <li><a href="contact.html">contact</a></li>
         </ul>
       </div>
     </nav>
+    <section>
+<!-- each works' block -->
+      <div class="workSection">
+        <div class="workTitleSection">
+          <p>Agree to disagree</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p>charcoal, oil on canvas</p>&#x2800;&#x2800;
+            <p>200 × 160</p>&#x2800;&#x2800;
+            <p>2018</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/work01.jpg" alt="work01.jpg" title="work01" onclick="openModal();currentSlide(1)">
+          </div>
+        </div>
+      </div>
+
+      <div class="workSection">
+        <div class="workTitleSection">
+          <p>Magpie nest</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p>Chinese ink, Gouache, oil on canvas</p>&#x2800;&#x2800;
+            <p>200 × 160</p>&#x2800;&#x2800;
+            <p>2018</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/work02.jpg" alt="work02.jpg" title="work02" onclick="openModal();currentSlide(2)">
+          </div>
+        </div>
+      </div>
+
+      <div class="workSection">
+        <div class="workTitleSection">
+          <p>A full circle</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p>Chinese ink, oil on canvas</p>&#x2800;&#x2800;
+            <p>200 × 160</p>&#x2800;&#x2800;
+            <p>2018</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/work02.jpg" alt="work02.jpg" title="work02" onclick="openModal();currentSlide(2)">
+          </div>
+        </div>
+      </div>
+
+      <div class="workSection">
+        <div class="workTitleSection">
+          <p>Layers of tricks</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p>Chinese ink oil on canvas</p>&#x2800;&#x2800;
+            <p>200 × 160</p>&#x2800;&#x2800;
+            <p>2018</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/work02.jpg" alt="work02.jpg" title="work02" onclick="openModal();currentSlide(2)">
+          </div>
+        </div>
+      </div>
+
+      <div class="workSection">
+        <div class="workTitleSection">
+          <p>The very first question</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p>Chinese ink, spray paint, oil on canvas</p>&#x2800;&#x2800;
+            <p>150 × 150</p>&#x2800;&#x2800;
+            <p>2018</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/work02.jpg" alt="work02.jpg" title="work02" onclick="openModal();currentSlide(2)">
+          </div>
+        </div>
+      </div>
+
+<!-- modal image gallery-->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <img src="works/work01.jpg">
+          </div>
+          <div class="mySlides">
+            <img src="works/work02.jpg">
+          </div>
+          <div class="mySlides">
+            <img src="works/work02.jpg">
+          </div>
+          <div class="mySlides">
+            <img src="works/work02.jpg">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+    </section>
 
   </main>
   <footer>
   </footer>
+  <script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 
 </body>
 </html>
