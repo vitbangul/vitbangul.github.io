@@ -3,10 +3,12 @@
 To do list
 -----------
 
-* make enlarge-able image layout
-* photos upload
-* mobile responsive design
-* domain linking
+* finish mobile responsive design
+* adjust sections' top location
+* adjust margin between captions and images
+* design main page on mobile environment
+* print layout modify (more messy)
+* popup box font thickness less
 
 ---------------
 
@@ -19,7 +21,6 @@ To do list
   - 13:27 - 14:52
   - 16:12 - 17:05
 
-* 31.12 (total: )
+* 31.12 (total: 4h 27')
   - 14:20 - 15:50
   - 17:10 - 20:07
-  
