@@ -18,12 +18,16 @@
       <div class="navList">
         <ul>
           <li><a href="prints.html">prints</a></li>
+          <div class="listChild">
           <li>works</li>
           <li class="visitedTab"><a href="2020.html">2020</a></li>
           <li><a href="2019.html">2019</a></li>
           <li><a href="2018.html">2018</a></li>
+        </div>
+        <div class="listChild">
           <li>text</li>
-          <li><a href="theFiguresOfQuestion.html">the figures of question</a></li>
+          <li><a href="theFiguresOfQuestion.html">the figures of questions</a></li>
+        </div>
           <li><a href="bio.html">bio</a></li>
           <li><a href="contact.html">contact</a></li>
         </ul>
@@ -43,7 +47,7 @@
       <p>2020</p>&#x2800;&#x2800;
     </div>
     <div class="workImg">
-      <img src="works/2020/Blooming, Chinese ink, oil on canvas, 200 × 150, 2020.jpg" alt="Blooming, Chinese ink, oil on canvas, 200 × 150, 2020.jpg" title="Blooming, Chinese ink, oil on canvas, 200 × 150, 2020" onclick="openModal();currentSlide(2)">
+      <img src="works/2020/Blooming, Chinese ink, oil on canvas, 200 × 150, 2020.jpg" alt="Blooming, Chinese ink, oil on canvas, 200 × 150, 2020.jpg" title="Blooming, Chinese ink, oil on canvas, 200 × 150, 2020" onclick="openModal();currentSlide(1)">
     </div>
   </div>
 </div>
@@ -59,7 +63,7 @@
             <p>2020</p>&#x2800;&#x2800;
           </div>
           <div class="workImg">
-            <img src="works/2020/Liquid skin, Acrylic, spray paint, oil on canvas, 2020.jpg" alt="Liquid skin, Acrylic, spray paint, oil on canvas, 2020.jpg" title="Liquid skin, Acrylic, spray paint, oil on canvas, 2020" onclick="openModal();currentSlide(1)">
+            <img src="works/2020/Liquid skin, Acrylic, spray paint, oil on canvas, 2020.jpg" alt="Liquid skin, Acrylic, spray paint, oil on canvas, 2020.jpg" title="Liquid skin, Acrylic, spray paint, oil on canvas, 2020" onclick="openModal();currentSlide(2)">
           </div>
         </div>
       </div>
@@ -75,7 +79,7 @@
             <p>2020</p>&#x2800;&#x2800;
           </div>
           <div class="workImg">
-            <img src="works/2020/Regression instinct, Acrylic, spray, oil on canvas, 70 × 50, 2020.png" alt="Regression instinct, Acrylic, spray, oil on canvas, 70 × 50, 2020.png" title="Regression instinct, Acrylic, spray, oil on canvas, 70 × 50, 2020" onclick="openModal();currentSlide(2)">
+            <img src="works/2020/Regression instinct, Acrylic, spray, oil on canvas, 70 × 50, 2020.png" alt="Regression instinct, Acrylic, spray, oil on canvas, 70 × 50, 2020.png" title="Regression instinct, Acrylic, spray, oil on canvas, 70 × 50, 2020" onclick="openModal();currentSlide(3)">
           </div>
         </div>
       </div>
@@ -91,16 +95,18 @@
             <p>2020</p>&#x2800;&#x2800;
           </div>
           <div class="workImg">
-            <img src="works/2020/Canned food, Acrylic, oil on canvas ,160 × 60, 2020.jpeg" alt="Canned food, Acrylic, oil on canvas ,160 × 60, 2020.jpeg" title="Canned food, Acrylic, oil on canvas ,160 × 60, 2020" onclick="openModal();currentSlide(2)">
+            <img src="works/2020/Canned food, Acrylic, oil on canvas ,160 × 60, 2020.jpeg" alt="Canned food, Acrylic, oil on canvas ,160 × 60, 2020.jpeg" title="Canned food, Acrylic, oil on canvas ,160 × 60, 2020" onclick="openModal();currentSlide(4)">
           </div>
         </div>
       </div>
 
 <!-- modal image gallery-->
       <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
+        <!-- <span class="close cursor" onclick="closeModal()">&times;</span> -->
+        <span class="close cursor" onclick="closeModal()">&#x2715;</span>
+        <!-- <span class="close cursor" onclick="closeModal()">&#x00d7;</span> -->
 
+        <div class="modal-content">
           <div class="mySlides">
             <img src="works/2020/Blooming, Chinese ink, oil on canvas, 200 × 150, 2020.jpg">
           </div>
@@ -114,8 +120,10 @@
             <img src="works/2020/Canned food, Acrylic, oil on canvas ,160 × 60, 2020.jpeg">
           </div>
 
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <a class="prev" onclick="plusSlides(-1)">&#60;</a>
+          <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a> -->
+          <a class="next" onclick="plusSlides(1)">&#62;</a>
+          <!-- <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 
           <div class="caption-container">
             <p id="caption"></p>
