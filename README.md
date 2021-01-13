@@ -3,9 +3,9 @@
 To do list
 -----------
 
-* print page layout
+* prints modal - caption under the image / not a gallery / one by one
 * font
-* mobile front page
+* get new prints images and set bg color
 
 ---------------
 
@@ -25,8 +25,8 @@ To do list
 * 12.01 (total: 3h)
   - 21:09 - 24:09
 
-* 13.01 (total: 3h 20')
+* 13.01 (total: 5h 10')
   - 08:15 - 09:30
   - 09:35 - 10:25
   - 19:00 - 20:15
-  - 21:30 - 
+  - 21:30 - 23:20
