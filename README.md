@@ -3,12 +3,9 @@
 To do list
 -----------
 
-* finish mobile responsive design
-* adjust sections' top location
-* adjust margin between captions and images
-* design main page on mobile environment
-* print layout modify (more messy)
-* popup box font thickness less
+* print page layout
+* font
+* mobile front page
 
 ---------------
 
@@ -31,3 +28,4 @@ To do list
 * 13.01 (total: 2h 5')
   - 08:15 - 09:30
   - 09:35 - 10:25
+  - 19:00 - 
