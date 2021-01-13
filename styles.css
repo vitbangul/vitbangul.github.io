@@ -231,7 +231,7 @@ section{
   position: absolute;
   top: 35px;
   right: 50px;
-  font-size: 20px;
+  font-size: 25px;
   /* font-weight: normal; */
   font-weight: lighter;
 }
@@ -452,7 +452,7 @@ address a{
   .close{
     top: 35px;
     right: 30px;
-    font-size: 15px;
+    font-size: 18px;
   }
   .prev{
     margin-left: -30px;
