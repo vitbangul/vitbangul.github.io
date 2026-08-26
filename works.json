@@ -1,1 +1,26 @@
-
+[
+  {
+    "title": "Many clouds",
+    "titleKr": "여러 구름",
+    "year": 2024,
+    "material": "Oil on canvas",
+    "size": "80.5 × 116.5 cm",
+    "image": "works/2024/Many clouds.jpg"
+  },
+  {
+    "title": "Backing down",
+    "titleKr": "반대로 내려가기",
+    "year": 2024,
+    "material": "Epoxy, Acrylic spray on wood canvas",
+    "size": "5 × 40 × 5 cm",
+    "image": "works/2024/Backing down.jpg"
+  },
+  {
+    "title": "Rooftop corner",
+    "titleKr": "옥상 구석",
+    "year": 2024,
+    "material": "Oil on canvas",
+    "size": "53 × 45.5 cm",
+    "image": "works/2024/Rooftop corner.jpg"
+  }
+]
