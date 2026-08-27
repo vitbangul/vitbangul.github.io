@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Jaehyun Kim</title>
+</head>
+<body>
+  <header>
+    <div class="home">
+      <h1><a href="index.html">Jaehyun Kim</a></h1>
+    </div>
+  </header>
+  <main>
+<!-- navigation bar-->
+    <nav>
+      <div class="navList">
+        <ul>
+          <div class="listChild">
+            <li>works</li>
+            <li><a href="2026-.html">2026-</a></li>
+            <li class="visitedTab"><a href="2025-24.html">2025-24</a></li>
+            <li><a href="2023-22.html">2023-22</a></li>
+            <li><a href="2021-20.html">2021-20</a></li>
+            <li><a href="2019-18.html">2019-18</a></li>
+          </div>
+          <div class="listChild">
+            <li>text</li>
+            <li><a href="theFiguresOfQuestion.html">the figures of questions</a></li>
+            <li><a href="emptyHouse.html">empty house</a></li>
+          </div>
+            <li><a href="prints.html">prints</a></li>
+            <li><a href="bio.html">bio</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+
+
+
+
+        <div class="workSection">
+        <div class="workTitleSection">
+          <p>winter jumping pond</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p> ink, oil on canvas </p>&#x2800;&#x2800;
+            <p> 227.3 × 545.4 (cm) (3pcs) </p>&#x2800;&#x2800;
+            <p>2025</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/2026/winter jumping pond.jpg" alt="winter jumping pond.jpg" title="227.3 × 545.4 (cm) (3pcs) ink, oil on canvas, 2025" onclick="openModal();currentSlide(1)">
+          </div>
+        </div>
+      </div>
+
+
+        <div class="workSection">
+        <div class="workTitleSection">
+          <p>lotus focus</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p> ink, oil on canvas </p>&#x2800;&#x2800;
+            <p> 193.9 × 454.6 (cm) (2pcs) </p>&#x2800;&#x2800;
+            <p>2025</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/2026/lotus focus.jpg" alt="lotus focus.jpg" title="193.9 × 454.6 (cm) (2pcs) ink, oil on canvas, 2025" onclick="openModal();currentSlide(1)">
+          </div>
+        </div>
+      </div>
+
+
+        <div class="workSection">
+        <div class="workTitleSection">
+          <p>flamingo magnolia</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p> ink, oil on canvas </p>&#x2800;&#x2800;
+            <p> 193.9× 130.3 cm </p>&#x2800;&#x2800;
+            <p>2025</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/2026/flamingo magnolia.jpg" alt="flamingo magnolia.jpg" title="193.9× 130.3 cm ink, oil on canvas, 2026" onclick="openModal();currentSlide(1)">
+          </div>
+        </div>
+      </div>
+
+
+        <div class="workSection">
+        <div class="workTitleSection">
+          <p>drifting tips</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p> oil on canvas </p>&#x2800;&#x2800;
+            <p> 72.7 × 60.6 (cm) </p>&#x2800;&#x2800;
+            <p>2025</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/2026/drifting tips.jpg" alt="drifting tips.jpg" title=" 72.7 × 60.6 (cm) oil on canvas, 2026" onclick="openModal();currentSlide(1)">
+          </div>
+        </div>
+      </div>
+      
+        <div class="workSection">
+        <div class="workTitleSection">
+          <p>evening hush</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p> ink, oil on canvas </p>&#x2800;&#x2800;
+            <p> 116.8 × 72.7 (cm) </p>&#x2800;&#x2800;
+            <p>2025</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/2026/evening hush.jpg" alt="evening hush.jpg" title=" 116.8 × 72.7 (cm) ink, oil on canvas, 2026" onclick="openModal();currentSlide(1)">
+          </div>
+        </div>
+      </div>
+
+  <div class="workSection">
+        <div class="workTitleSection">
+          <p>icicle</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p> ink, oil on canvas </p>&#x2800;&#x2800;
+            <p> 180 × 80 (cm) </p>&#x2800;&#x2800;
+            <p>2025</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/2026/icicle.jpg" alt="icicle.jpg" title=" 180 × 80 (cm) ink, oil on canvas, 2026" onclick="openModal();currentSlide(1)">
+          </div>
+        </div>
+      </div>
+
+
+      
+      
+        <div class="workSection">
+        <div class="workTitleSection">
+          <p>platanus</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p> oil on canvas </p>&#x2800;&#x2800;
+            <p> 227.3 × 181.8 (cm) </p>&#x2800;&#x2800;
+            <p>2025</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/2026/platanus.jpg" alt="platanus.jpg" title=" 227.3 × 181.8 (cm) oil on canvas, 2026" onclick="openModal();currentSlide(1)">
+          </div>
+        </div>
+      </div>
+
+
+
+      
+          <div class="workSection">
+        <div class="workTitleSection">
+          <p>screened leaf debris</p>
+        </div>
+        <div class="workImgSection">
+          <div class="workCaption">
+            <p> resin, acrylic spray on wood frame </p>&#x2800;&#x2800;
+            <p> 40 × 20 × 5 (cm) </p>&#x2800;&#x2800;
+            <p>2025</p>&#x2800;&#x2800;
+          </div>
+          <div class="workImg">
+            <img src="works/2025/screened leaf debris.jpg" alt="screened leaf debris.jpg" title="40 × 10 × 5 (cm) resin, acrylic spray on wood frame, 2025" onclick="openModal();currentSlide(1)">
+          </div>
+        </div>
+      </div>
+
+
+  <!-- modal image gallery-->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&#x2715;</span>
+
+        <!-- modal contents (pop-up image when clicked) -->
+          <div class="modal-content">
+            <div class="mySlides">
+              <img src="works/2022/image_name_02.jpg">
+            </div>
+          <!-- copy and paste the three lines below in order for every images -->
+            <div class="mySlides">
+              <img src="works/2022/image_name_02.jpg">
+            </div>
+
+
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#60;</a>
+            <a class="next" onclick="plusSlides(1)">&#62;</a>
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          </div>
+
+      </div>
+
+      <br><br><br>
+    </section>
+
+  </main>
+  <footer>
+    <p class="copyright">
+      &#169; 2020. Jaehyun Kim. All Rights Reserved
+    </p>
+  </footer>
+
+  <script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+</body>
+</html>
